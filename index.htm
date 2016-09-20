@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<style type="text/css">
+/* <![CDATA[ */
+body {
+ background: #fff;
+ color: #000;
+ margin: 0 0 0 24pt;
+ font-family: Optima, sans-serif;
+ font-size: 13pt;
+}
+a {
+ color: #117;
+ text-decoration: none;
+}
+/* ]]> */
+</style>
+<script type="text/javascript">
+var t = 0;
+var fantasy_situation = ["cleaning an apothecary", "delivering a package", "enchanting a corset", "passing through a one-horse town", "reconstructing a ruined map", "extracting a ship from a bottle", "selling counterfeit potions", "guarding a valuable treasure", "exploring a cave ", "exacting revenge", "summoning a demon"];
+var descriptor = ["a dapper", "a sullen", "a quick-witted", "a lazy", "an untalented", "an anxious", "a vulnerable", "a fussy", "a gentle", "a judgmental", "a reserved"];
+var person = ["wizard", "soldier", "gardener", "accountant", "poet", "baron", "urchin", "debutante", "blacksmith", "alchemist", "banner maker"];
+var bad_situation = ["the destruction of their reputation", "the disappearance of their cousin", "their own death", "the shame of their family", "the loss of their fortune", "the loss of their soul", "a disastrous bargain", "a tyrant/’s rule", "a terrible fire", "an otherworldly storm", "the heat death of the universe"];
+var quest = ["retrieve a priceless manuscript", "unearth a lost tomb", "sail across the sea", "run a successful business", "kill a mythical dragon", "locate a powerful sage", "gather an army", "steal back a contract", "build a new settlement", "venture into the desert", "find a portal to another world"];
+var aid = ["Their sarcastic captive", "A spirit of trickery", "A talking puzzle box", "A magical suit", "An ambitious engraver", "A bloodthirsty potato farmer", "A compassionate demon", "Their own memories", "A low-rent mercenary", "Their lying employer", "A scholarly swamp witch"];
+function rand_range(max) {
+    "use strict";
+    return Math.floor(Math.random() * (max + 1));
+}
+function fresh(array) {
+    "use strict";
+    var index = rand_range(array.length - 2) + 1, selection = array[index];
+    array[index] = array[0];
+    array[0] = selection;
+    return selection;
+}
+function story() {
+    "use strict";
+    var last, lede, main = document.getElementById('main');
+    if (t <= 12) {
+        t += 1;
+    } else {
+        main.removeChild(document.getElementById('main').firstChild);
+    }
+    last = document.createElement('div');
+    last.appendChild(document.createElement('br'));
+    lede = "While " + fresh(fantasy_situation) + ", " + fresh(descriptor) + " " + fresh(person) + " made a terrible mistake. Now, to make right " + fresh(bad_situation) + ", they must " + fresh(quest) + ". Their only aid? " + fresh(aid) + ". ";
+    last.appendChild(document.createTextNode(lede));
+    main.appendChild(last);
+}
+function produce_stories() {
+    "use strict";
+    story();
+    setInterval(story, 3500);
+}</script>
+  <title>Lede</title>
+</head>
+<body onload="produce_stories();">
+<div style="float:right; background:#999; margin-left:6px; border-left:thin #000 solid; border-bottom:thin #000 solid; padding:6px">
+<div><br>1-800-Write-A-Quest<br />Based on a <a href="http://www.newser.com/story/157857/scotlands-new-hero-is-man-in-giraffe-suit.html">True Story</a><br /><a href="http://nickm.com">Nick Montfort</a></div>
+</div>
+<div id="main"></div>
+</body>
+</html>
+
+
