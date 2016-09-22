@@ -5,10 +5,11 @@
 <button onclick="generate()">Generate</button>
 <script>
 var grammarObj = {
-	"sentence": ["The #desertobject# #negatemodifier# #loveverb# #reader#."],
-	"desertobject": ["desert", "#plantdescriptor# #plant#", "#place#", "#animaldescriptor# #animal#"],
+	"sentence": ["The #desertobject# #negatemodifier# #loveverb# #reader#.", "You #loveverb# the #desertobject#."],
+	"desertobject": ["desert", "#plantdescriptor# #plant#", "#placedescriptor# #place#", "#animaldescriptor# #animal#"],
 	"plantdescriptor": ["scrubby", "thirsty", "bowed", "bent", "ravaged", "hardy", "reaching", "searching", "sun-starved", "monumental"],
 	"plant": ["saguaro", "prickly pear", "tumbleweed", "wildflowers", "cholla", "palo verde", "marigold", "ocotillo", "yucca", "poppies", "ironwood", "creosote", "brittle bush", "pines", "lichen"]
+	"placedescriptor": ["sweeping", "rolling", "hollow", "empty", "sunburnt", "haunted", "dusty", "abandoned", "chilled", "heated"],
 	"place": ["mine", "pines", "dunes", "canyons", "road", "river", "waterfall", "shade", "corral", "mountains", "valleys", "canal"],
 	"animaldescriptor": ["hungry", "lean", "watchful", "silent", "hardy", "vibrant", "lonely", "undemanding"],
 	"animal": ["coyote", "wren", "canyon frog", "dragonfly", "butterfly", "cougar", "rattlesnake", "roadrunner", "wolf"],
