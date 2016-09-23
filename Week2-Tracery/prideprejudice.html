@@ -1,0 +1,20 @@
+<script src="../lib/tracery.js"></script>
+<script src="../lib/mousetrap.min.js"></script>
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<h1>Text will go here</h1>
+<button onclick="generate()">Generate</button>
+<script>
+var grammarObj = {
+	"sentence" : ["It is a truth universally acknowledged, that #adjective.a# #person# in possession of #fortuneAdj.a# fortune, must be in want of a #noun#."],
+	"adjective" : ["single", "lonely", "dank", "janky", "drunk", "sad sad"]
+	"person" : ["man", "woman", "hippo", "presidential candidate", "TV reality star"]
+	"fortuneAdj" : ["good", "small", "measly", "nonexistant", "meaty", "juicy"]
+	"noun" : ["wife", "husband", "uncle", "vote", "anaconda"]
+	
+}
+var grammar = tracery.createGrammar(grammarObj)
+function generate(){
+	var t = grammar.flatten("#sentence#");
+	$('h1').text(t);
+}
+</script>
