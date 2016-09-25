@@ -5,7 +5,7 @@
 <button onclick="generate()">Generate</button>
 <script>
 var grammarObj = {
-	"sentence": ["The #desertobject# #negatemodifier# #loveverb# #reader#."],
+	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#."],
 	"desertObject": ["desert", "#plantdescriptor# #plant#", "#place#", "#animaldescriptor# #animal#"],
 	"plantDescriptor": ["scrubby", "thirsty", "bowed", "bent", "ravaged", "hardy", "reaching", "searching", "sun starved", "monumental"],
 	"plant": ["saguaro", "prickly pear", "tumbleweed", "wildflowers", "cholla", "palo verde", "marigold", "ocotillo", "yucca", "poppies", "ironwood", "creosote", "brittle bush", "pines", "lichen"],
@@ -14,8 +14,8 @@ var grammarObj = {
 	"animal": ["coyote", "wren", "canyon frog", "dragonfly", "butterfly", "cougar", "rattlesnake", "roadrunner", "wolf"],
 	"negateModifier": ["will not", "can never", "does not", "will never", "cannot"],
 	"loveVerb": ["love you", "look at", "watch", "care for", "nurture", "be fond of", "think about"],
-	"reader": ["you", "#bodypart#"],
-	"bodypart": ["your hair", "your heart", "your hands", "your eyes"]
+	"reader": ["you", "#bodyPart#"],
+	"bodyPart": ["your hair", "your heart", "your hands", "your eyes"]
 
 }
 var grammar = tracery.createGrammar(grammarObj)
