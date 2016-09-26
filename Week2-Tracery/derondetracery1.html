@@ -5,7 +5,7 @@
 <button onclick="generate()">Generate</button>
 <script>
 var grammarObj = {
-	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#.", "You #loveVerb# #desertObject.a.", "#bodyPart.capitalize# catches on #desertObject#; you feel #emotion#."],
+	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#.", "You #loveVerb# #desertObject.a.", "#bodyPartSingular.capitalize# catches on #desertObject.a#; you feel #emotion#."],
 	"desertObject": ["desert", "#plantDescriptor# #plant#", "#place#", "#animalDescriptor# #animal#"],
 	"plantDescriptor": ["scrubby", "thirsty", "bowed", "bent", "ravaged", "hardy", "reaching", "searching", "sun starved", "monumental"],
 	"plant": ["saguaro", "prickly pear", "tumbleweed", "wildflower", "cholla", "palo verde", "marigold", "ocotillo", "yucca", "poppy", "ironwood", "creosote", "brittle bush", "pine", "lichen"],
@@ -15,7 +15,9 @@ var grammarObj = {
 	"negateModifier": ["will not", "can never", "does not", "will never", "cannot"],
 	"loveVerb": ["love", "look at", "watch", "care for", "nurture", "be fond of", "think about"],
 	"reader": ["you", "#bodyPart#"],
-	"bodyPart": ["your hair", "your heart", "your hands", "your eyes"],
+	"bodyPart": ["#bodyPartPlural#", "#bodyPartSingular#"],
+	"bodyPartPlural": ["your hands", "your eyes", "your memories"],
+	"bodyPartSingular": ["your hair", "your heart", "your hand", "your eye", "your arm", "your soul"],
 	"emotion": ["whole", "lonely", "terror", "bereft", "tenderness", "gentle", "grief"]
 
 }
