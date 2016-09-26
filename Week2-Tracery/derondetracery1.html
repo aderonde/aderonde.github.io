@@ -5,20 +5,21 @@
 <button onclick="generate()">Generate</button>
 <script>
 var grammarObj = {
-	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#.", "You #loveVerb# #desertObject.a.", "#bodyPartSingular.capitalize# catches on #desertObject.a#; you feel #emotion#."],
-	"desertObject": ["desert", "#plantDescriptor# #plant#", "#place#", "#animalDescriptor# #animal#"],
-	"plantDescriptor": ["scrubby", "thirsty", "bowed", "bent", "ravaged", "hardy", "reaching", "searching", "sun starved", "monumental"],
+	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#.", "You #loveVerb# #desertObject.a#.", "#bodyPartSingular.capitalize# catches on #desertObject.a#; you feel #emotion#."],
+	"desertObject": ["desert", "#plantDescriptor# #plant#", "#placeDescriptor# #place#", "#animalDescriptor# #animal#"],
+	"plantDescriptor": ["scrubby", "thirsty", "bowed", "bent", "ravaged", "hardy", "reaching", "searching", "sun starved", "monumental", "wondrous", "strange", "scorched", "ancient", "blooming"],
 	"plant": ["saguaro", "prickly pear", "tumbleweed", "wildflower", "cholla", "palo verde", "marigold", "ocotillo", "yucca", "poppy", "ironwood", "creosote", "brittle bush", "pine", "lichen"],
-	"place": ["mine", "dune", "canyon", "road", "river", "waterfall", "shade", "corral", "mountain", "valley", "canal"],
-	"animalDescriptor": ["hungry", "lean", "watchful", "silent", "hardy", "vibrant", "lonely", "undemanding"],
+	"placeDescriptor": ["lonely", "abandoned", "ruined", "ancient", "blazing", "dusty", "forgotten", "hollow", "monumental", "strange", "wondrous", "scorched", "empty", "memory soaked"],
+	"place": ["mine", "dune", "canyon", "road", "river", "waterfall", "shade", "corral", "mountain", "valley", "canal", "trail", "cairn", "ruin", "mission", "cave"],
+	"animalDescriptor": ["hungry", "lean", "watchful", "silent", "hardy", "vibrant", "lonely", "undemanding", "bewildered", "searching", "gentle", "tender", "grim"],
 	"animal": ["coyote", "wren", "canyon frog", "dragonfly", "butterfly", "cougar", "rattlesnake", "roadrunner", "wolf"],
 	"negateModifier": ["will not", "can never", "does not", "will never", "cannot"],
-	"loveVerb": ["love", "look at", "watch", "care for", "nurture", "be fond of", "think about"],
+	"loveVerb": ["love", "look at", "watch", "care for", "nurture", "be fond of", "think about", "trust", "feel tender towards", "ruin"],
 	"reader": ["you", "#bodyPart#"],
 	"bodyPart": ["#bodyPartPlural#", "#bodyPartSingular#"],
 	"bodyPartPlural": ["your hands", "your eyes", "your memories"],
 	"bodyPartSingular": ["your hair", "your heart", "your hand", "your eye", "your arm", "your soul"],
-	"emotion": ["whole", "lonely", "terror", "bereft", "tenderness", "gentle", "grief"]
+	"emotion": ["whole", "lonely", "terror", "bereft", "tenderness", "gentle", "grief", "joy", "trust", "admiration", "acceptance", "anticipation", "pity", "friendship", "kinship", "envy", "grim", "wonder", "courageous", "hope", "despair"]
 
 }
 var grammar = tracery.createGrammar(grammarObj)
