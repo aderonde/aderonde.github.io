@@ -5,7 +5,7 @@
 <button onclick="generate()">Generate</button>
 <script>
 var grammarObj = {
-	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#.", "You #loveVerb# #desertObject.a#.", "#bodyPartSingular.capitalize# catches on #desertObject.a#; you feel #emotion#."],
+	"sentence": ["The #desertObject# #negateModifier# #loveVerb# #reader#.", "You #loveVerb# #desertObject.a#.", "#bodyPartSingular.capitalize# catches on #desertObject.a#; you feel #emotion#.", "While #moveVerb#, you #findVerb# #desertObject.a#: it is #placeDescriptor# and #placeDescriptor#. You #loveVerb# it."],
 	"desertObject": ["desert", "#plantDescriptor# #plant#", "#placeDescriptor# #place#", "#animalDescriptor# #animal#"],
 	"plantDescriptor": ["scrubby", "thirsty", "bowed", "bent", "ravaged", "hardy", "reaching", "searching", "sun starved", "monumental", "wondrous", "strange", "scorched", "ancient", "blooming"],
 	"plant": ["saguaro", "prickly pear", "tumbleweed", "wildflower", "cholla", "palo verde", "marigold", "ocotillo", "yucca", "poppy", "ironwood", "creosote", "brittle bush", "pine", "lichen"],
@@ -19,7 +19,9 @@ var grammarObj = {
 	"bodyPart": ["#bodyPartPlural#", "#bodyPartSingular#"],
 	"bodyPartPlural": ["your hands", "your eyes", "your memories", "your arms", "your smiles"],
 	"bodyPartSingular": ["your hair", "your heart", "your hand", "your eye", "your arm", "your soul", "your smile", "your gaze"],
-	"emotion": ["whole", "lonely", "terror", "bereft", "tenderness", "gentle", "grief", "joy", "trust", "admiration", "acceptance", "anticipation", "pity", "friendship", "kinship", "envy", "grim", "wonder", "courageous", "hope", "despair"]
+	"emotion": ["whole", "lonely", "terror", "bereft", "tenderness", "gentle", "grief", "joy", "trust", "admiration", "acceptance", "anticipation", "pity", "friendship", "kinship", "envy", "grim", "wonder", "courageous", "hope", "despair"],
+	"moveVerb": ["wandering", "hiking", "walking", "running", "running away", "reconnoitering", "biking", "sailing", "dreaming", "searching"],
+	"findVerb": ["find", "discover", "notice", "encounter", "stumble upon"]
 
 }
 var grammar = tracery.createGrammar(grammarObj)
