@@ -21,7 +21,8 @@ $.get("grettirsaga.txt", function(text) {
 
 function generate(){
 	var t = markov.generate()
-	$('body').append("<p>It is said that "+t+"</p>")
+	$('body').append("<p>"+t+"</p>")
 }
 </script>
+<h1>Saga Remixer</h1>
 <button onclick="generate()">Tell me a story!</button>
