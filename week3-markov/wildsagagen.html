@@ -3,7 +3,7 @@
 <script>
 var txt;
 var markov = new MarkovGeneratorWord(2,50)
-$.get("laxdalesaga.txt", function(text) {
+$.get("egilsaga.txt", function(text) {
      markov.feed(text);
 });
 $.get("purplesage.txt", function(text) {
