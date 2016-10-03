@@ -6,6 +6,9 @@ var markov = new MarkovGeneratorWord(2,50)
 $.get("egilsaga.txt", function(text) {
      markov.feed(text);
 });
+$.get("laxdalesaga.txt", function(text) {
+     markov.feed(text);
+});
 $.get("purplesage.txt", function(text) {
      markov.feed(text);
 });
