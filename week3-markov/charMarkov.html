@@ -8,8 +8,9 @@ $.get("aubspoetry.txt", function(text) {
 });
 function generate(){
 	var t = markov.generate()
-	$('h1').text(t);
+	$('body').append("<p>"+t+"</p>")
 }
 </script>
-<h1>Markov-generated text will go here</h1>
-<button onclick="generate()">Generate</button>
+<h1>The seer sits on a chair, incense smoke in the air. Would you like to know your fortune?</h1>
+<button onclick="generate()">Get Fortune</button>
+
