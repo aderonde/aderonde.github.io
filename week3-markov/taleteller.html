@@ -15,6 +15,10 @@ $.get("mabinogion.txt", function(text) {
 $.get("celtictales.txt", function(text) {
      markov.feed(text);
 });
+$.get("hindutales.txt", function(text) {
+     markov.feed(text);
+});
+
 function generate(){
 	var t = markov.generate()
 	$('body').append("<p>"+t+"</p>")
