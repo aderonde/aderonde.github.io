@@ -1,3 +1,21 @@
+<style>
+.Book {
+}
+.Book > section {
+    display: none;
+    white-space: pre-line;
+}
+.Book > section:target {
+    display: block;
+}
+.Book > .intro {
+    display: block;
+}
+.Book > section:target ~ .intro {
+    display: none;
+}
+</style>
+
 <h1> A Ghost Thing </h1>
 
 <div class="Book">
