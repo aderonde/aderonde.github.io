@@ -1,0 +1,25 @@
+<script src="../lib/tracery.js"></script>
+<script src="../lib/mousetrap.min.js"></script>
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<script src="../lib/markov.js"></script>
+<script>
+var markov = new MarkovGenerator(2,7," ")
+var text = "unicorn raven sparrow scorpion coyote eagle owl lizard zebra duck kitten" 
+markov.feed(text)
+var markovPet = markov.generate()
+var grammarObj = {
+    "name": ["Arjun","Yuuma","Darcy","Mia","Chiaki","Izzi","Azra","Lina"],
+    "animal": [markovpet],
+    "mood": ["vexed","indignant","impassioned","wistful","astute","courteous"],
+    "story": ["#hero# traveled with her pet #heroPet#.  #hero# was never #mood#, for the #heroPet# was always too #mood#."],
+    "origin": ["#[hero:#name#][heroPet:#animal#]story#"]
+}
+var grammar = tracery.createGrammar(grammarObj)
+function generate(){
+	var t = grammar.flatten("#origin#");
+	markovPet = markov.generate()
+	$('h1').text(t);
+}
+</script>
+<h1>Text will go here</h1>
+<button onclick="generate()">Generate</button>
