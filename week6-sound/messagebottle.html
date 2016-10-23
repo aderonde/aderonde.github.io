@@ -13,6 +13,7 @@ var counter = 0;
 
 function preload(){
   	sound = loadSound('LastLookBack.mp3');
+  	tuba = loadSound('ekrem.mp3');
 }
 
 function setup(){
@@ -22,6 +23,10 @@ function setup(){
 		$("#text").css("visibility", "visible");
 		$('h3').text(txt[counter])
 		counter ++;
+		if(counter == 10){
+			tuba.play()
+			sound.stop()
+		}
 		while(txt[counter] == ""){
 			counter ++;
 		}
