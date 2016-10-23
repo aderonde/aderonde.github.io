@@ -12,13 +12,14 @@ function preload(){
 function setup(){
 	// sound.play()
 	sound.play()
+	$("#click").on('click', function(){
+		counter ++;
+		console.log(counter)
+		$('h1').text(txt[counter])
+	})
 }
 
-$("#click").on('click', function(){
-	counter ++;
-	console.log(counter)
-	$('h1').text(txt[counter])
-})
+
 
 	//use this to figure out where to set the amplitude 
 	// console.log(amplitude.getLevel())
