@@ -3,11 +3,14 @@
 <script src="../lib/drive-download-20161023T220252Z/jquery-1.11.1.min.js"></script>
 <script>
 var sound;
-var txt = "hey here is some text I hope that you enjoy reading it set to tuba beats"
+txt = []
+jQuery.get('bottlemessage.txt', function(data) {
+   txt = data.split('\n');
+});
 var counter = 0;
 function preload(){
+	console.log(txt);
   sound = loadSound('LastLookBack.mp3');
-  txt = txt.split(" ")
 }
 function setup(){
 	// sound.play()
