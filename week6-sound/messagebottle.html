@@ -6,9 +6,9 @@ var sound;
 txt = []
 jQuery.get('bottlemessage.txt', function(data) {
    	txt = data.split('\n');
-   	var counter = 0;
-
 });
+
+var counter = 0;
 
 function preload(){
 	console.log(txt);
