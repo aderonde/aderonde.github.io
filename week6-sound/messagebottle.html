@@ -5,28 +5,25 @@
 var sound;
 txt = []
 jQuery.get('bottlemessage.txt', function(data) {
-   txt = data.split('\n');
+   	txt = data.split('\n');
+   	var counter = 0;
+	function preload(){
+		console.log(txt);
+	  	sound = loadSound('LastLookBack.mp3');
+	}
+
+	function setup(){
+		// sound.play()
+		sound.play()
+		$("#click").on('click', function(){
+			counter ++;
+			while(txt[counter] == ""){
+				counter ++;
+			}
+			$('h3').text(txt[counter])
+		})
+	}
 });
-var counter = 0;
-function preload(){
-	console.log(txt);
-  sound = loadSound('LastLookBack.mp3');
-}
-function setup(){
-	// sound.play()
-	sound.play()
-	$("#click").on('click', function(){
-		counter ++;
-		console.log(counter)
-		$('h1').text(txt[counter])
-	})
-}
-
-
-
-	//use this to figure out where to set the amplitude 
-	// console.log(amplitude.getLevel())
-
 
 </script>
 <style>
@@ -41,4 +38,4 @@ html{
 }
 </style>
 <button id = "click">Click me</button>
-<h1></h1>
+<h3></h3>
