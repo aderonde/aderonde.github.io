@@ -18,6 +18,7 @@ function setup(){
 	// sound.play()
 	sound.play()
 	$("#click").on('click', function(){
+		$("#text").css("visibility", "visible");
 		$('h3').text(txt[counter])
 		counter ++;
 		while(txt[counter] == ""){
@@ -29,7 +30,7 @@ function setup(){
 </script>
 <style>
 #text {
-	margin: 200px auto 0 auto;
+	margin: 300px auto 0 auto;
 	padding-top: 6px;
 	padding-bottom: 15px;
 	width: 600px;
@@ -37,11 +38,12 @@ function setup(){
 	text-align: center;
 	font-family: Arial Black;
 	background: white;
+	visibility: hidden;
 }
 
 #click{
 	width: 100px;
-	margin: auto;
+	margin-top: 50px;
 	border-radius: 10px;
 	padding-top: 6px;
 	padding-bottom: 9px;
