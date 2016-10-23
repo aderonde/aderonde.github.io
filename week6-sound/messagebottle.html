@@ -11,7 +11,6 @@ jQuery.get('bottlemessage.txt', function(data) {
 var counter = 0;
 
 function preload(){
-	console.log(txt);
   	sound = loadSound('LastLookBack.mp3');
 }
 
@@ -19,11 +18,11 @@ function setup(){
 	// sound.play()
 	sound.play()
 	$("#click").on('click', function(){
+		$('h3').text(txt[counter])
 		counter ++;
 		while(txt[counter] == ""){
 			counter ++;
 		}
-		$('h3').text(txt[counter])
 	})
 }
 
