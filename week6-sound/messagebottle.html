@@ -17,16 +17,11 @@ function setup(){
 }
 
 function draw(){
-	var t = (Math.round(sound.currentTime()*100)/100).toString()
-	if(amplitude.getLevel() > 0.2 && isNotLoud){
+	$("#click").on('click', function(){
+		counter ++;
 		$('h1').text(txt[counter])
-		isNotLoud = false;
-		counter++;
-		if(counter > txt.length-1){counter=0}
-	}  
-	if(amplitude.getLevel() <= 0.15){
-		isNotLoud = true;
-	}
+	})
+
 	//use this to figure out where to set the amplitude 
 	// console.log(amplitude.getLevel())
 }
@@ -43,4 +38,5 @@ html{
 	background-color: lime;
 }
 </style>
+<button id = "click">Click me</button>
 <h1></h1>
