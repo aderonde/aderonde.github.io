@@ -7,23 +7,25 @@ txt = []
 jQuery.get('bottlemessage.txt', function(data) {
    	txt = data.split('\n');
    	var counter = 0;
-	function preload(){
-		console.log(txt);
-	  	sound = loadSound('LastLookBack.mp3');
-	}
 
-	function setup(){
-		// sound.play()
-		sound.play()
-		$("#click").on('click', function(){
-			counter ++;
-			while(txt[counter] == ""){
-				counter ++;
-			}
-			$('h3').text(txt[counter])
-		})
-	}
 });
+
+function preload(){
+	console.log(txt);
+  	sound = loadSound('LastLookBack.mp3');
+}
+
+function setup(){
+	// sound.play()
+	sound.play()
+	$("#click").on('click', function(){
+		counter ++;
+		while(txt[counter] == ""){
+			counter ++;
+		}
+		$('h3').text(txt[counter])
+	})
+}
 
 </script>
 <style>
