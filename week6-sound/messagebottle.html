@@ -12,21 +12,24 @@ jQuery.get('bottlemessage.txt', function(data) {
 var counter = 0;
 
 function preload(){
-  	sound = loadSound('LastLookBack.mp3');
-  	tuba = loadSound('ekrem.mp3');
+  	sound = loadSound('SedativaV.mp3');
+  	fire = loadSound('fire-1.mp3');
+  	earth = loadSound('crickets.wav');
+  	air = loadSound('forestwind.mp3');
+  	water = loadSound('lakewater.mp3')
 }
 
 function setup(){
 	// sound.play()
 	sound.play()
+	fire.play()
 	$("#click").on('click', function(){
 		$("#text").css("visibility", "visible");
 		$('h3').text(txt[counter])
 		counter ++;
-		if(counter == 10){
-			console.log("count 10");
-			tuba.play()
-			//sound.stop()
+		if(counter == 37){
+			earth.play()
+			fire.stop()
 		}
 		while(txt[counter] == ""){
 			counter ++;
