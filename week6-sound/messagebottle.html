@@ -21,15 +21,23 @@ function preload(){
 
 function setup(){
 	// sound.play()
-	sound.play()
-	fire.play()
+	sound.loop()
+	fire.loop()
 	$("#click").on('click', function(){
 		$("#text").css("visibility", "visible");
 		$('h3').text(txt[counter])
 		counter ++;
 		if(counter == 37){
-			earth.play()
+			earth.loop()
 			fire.stop()
+		}
+		if(counter == 72){
+			air.loop()
+			earth.stop()
+		}
+		if(counter == 103){
+			water.loop()
+			air.stop()
 		}
 		while(txt[counter] == ""){
 			counter ++;
