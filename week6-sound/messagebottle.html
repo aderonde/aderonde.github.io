@@ -26,26 +26,75 @@ function setup(){
 	fire.setVolume(.3)
 	$("#click").on('click', function(){
 		$("#text").css("visibility", "visible");
-		$('h3').text(txt[counter])
+		$('#text').text(txt[counter])
 		counter ++;
-		if(counter == 38){
+		if(counter == 34){
 			$("body").attr("background", "starplasmaforest.jpg");
 			earth.loop()
 			earth.setVolume(.2)
 			fire.stop()
 		}
-		if(counter == 73){
+		if(counter == 66){
 			$("body").attr("background", "starplasmaclouds.jpg");
 			air.loop()
 			air.setVolume(.1)
 			earth.stop()
 		}
-		if(counter == 107){
+		if(counter == 96){
 			$("body").attr("background", "starplasmaocean.jpg");
 			water.loop()
 			water.setVolume(.2)
 			air.stop()
 		}
+		if(counter == 1){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("ARIES")
+		}
+		if(counter == 9){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("LEO")
+		}
+		if(counter == 21){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("SAGITTARIUS")
+		}
+		if(counter == 34){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("TAURUS")
+		}
+		if(counter == 45){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("VIRGO")
+		}
+		if(counter == 54){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("CAPRICORN")
+		}
+		if(counter == 66){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("GEMINI")
+		}
+		if(counter == 77){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("LIBRA")
+		}
+		if(counter == 87){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("AQUARIUS")
+		}
+		if(counter == 96){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("CANCER")
+		}
+		if(counter == 104){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("SCORPIO")
+		}
+		if(counter == 109){
+			$("#sign").css("visibility", "visible");
+			$('#sign').text("PISCES")
+		}
+
 		while(txt[counter] == ""){
 			counter ++;
 		}
@@ -54,8 +103,21 @@ function setup(){
 
 </script>
 <style>
+#sign {
+	margin: 200px auto 0 auto;
+	padding-top: 6px;
+	padding-bottom: 15px;
+	width: 70px;
+	border-radius: 10px;
+	text-align: center;
+	background: white;
+	opacity: .8;
+	visibility: hidden;
+	font-family: 'Architects Daughter', cursive;
+	color: #AB50FF;
+}
 #text {
-	margin: 300px auto 0 auto;
+	margin: 50px auto 0 auto;
 	padding-top: 6px;
 	padding-bottom: 15px;
 	width: 600px;
@@ -77,6 +139,8 @@ body{
 }
 </style>
 <body background="starplasmalandscape.jpg">
+	<h3 id = "sign"></h3>
+	<br>
 	<h3 id = "text"></h3>
 	<br>
 	<img id = "click" src = "envelopesymbol3.png" alt = "Envelope" height = 50 width = 70>
