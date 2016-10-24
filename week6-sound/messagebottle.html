@@ -29,19 +29,19 @@ function setup(){
 		$('h3').text(txt[counter])
 		counter ++;
 		if(counter == 38){
-			$("body").attr("background", "starplasmaforest.jpg");
+			$("body").attr("background", "flowerforest.jpg");
 			earth.loop()
 			earth.setVolume(.2)
 			fire.stop()
 		}
 		if(counter == 73){
-			$("body").attr("background", "starplasmaclouds.jpg");
+			$("body").attr("background", "cloudlandscape.jpg");
 			air.loop()
 			air.setVolume(.1)
 			earth.stop()
 		}
 		if(counter == 107){
-			$("body").attr("background", "starplasmaocean.jpg");
+			$("body").attr("background", "seascape.jpg");
 			water.loop()
 			water.setVolume(.2)
 			air.stop()
@@ -85,7 +85,7 @@ body{
 	text-align: center;
 }
 </style>
-<body background="starplasmalandscape.jpg">
+<body background="londonfire.jpg">
 	<h3 id = "text"></h3>
 	<!--<img id = "click" src = "" alt = "Envelope">-->
 	<button id = "click">Click</button><br>
