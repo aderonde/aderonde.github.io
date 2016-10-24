@@ -29,17 +29,19 @@ function setup(){
 		$('h3').text(txt[counter])
 		counter ++;
 		if(counter == 37){
-			$("body").attr("background", "autumnbg.jpg");
+			$("body").attr("background", "starplasmaforest.jpg");
 			earth.loop()
 			earth.setVolume(.3)
 			fire.stop()
 		}
 		if(counter == 72){
+			$("body").attr("background", "starplasmaclouds.jpg");
 			air.loop()
 			air.setVolume(.2)
 			earth.stop()
 		}
 		if(counter == 103){
+			$("body").attr("background", "starplasmaocean.jpg");
 			water.loop()
 			water.setVolume(.3)
 			air.stop()
