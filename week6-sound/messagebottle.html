@@ -23,20 +23,24 @@ function setup(){
 	// sound.play()
 	sound.loop()
 	fire.loop()
+	fire.setVolume(.5)
 	$("#click").on('click', function(){
 		$("#text").css("visibility", "visible");
 		$('h3').text(txt[counter])
 		counter ++;
 		if(counter == 37){
 			earth.loop()
+			earth.setVolume(.5)
 			fire.stop()
 		}
 		if(counter == 72){
 			air.loop()
+			air.setVolume(.5)
 			earth.stop()
 		}
 		if(counter == 103){
 			water.loop()
+			water.setVolume(.5)
 			air.stop()
 		}
 		while(txt[counter] == ""){
