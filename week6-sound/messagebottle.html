@@ -23,7 +23,7 @@ function setup(){
 	// sound.play()
 	sound.loop()
 	fire.loop()
-	fire.setVolume(.4)
+	fire.setVolume(.3)
 	$("#click").on('click', function(){
 		$("#text").css("visibility", "visible");
 		$('h3').text(txt[counter])
@@ -31,19 +31,19 @@ function setup(){
 		if(counter == 37){
 			$("body").attr("background", "starplasmaforest.jpg");
 			earth.loop()
-			earth.setVolume(.3)
+			earth.setVolume(.2)
 			fire.stop()
 		}
 		if(counter == 72){
 			$("body").attr("background", "starplasmaclouds.jpg");
 			air.loop()
-			air.setVolume(.2)
+			air.setVolume(.1)
 			earth.stop()
 		}
 		if(counter == 103){
 			$("body").attr("background", "starplasmaocean.jpg");
 			water.loop()
-			water.setVolume(.3)
+			water.setVolume(.2)
 			air.stop()
 		}
 		while(txt[counter] == ""){
