@@ -30,10 +30,6 @@ Mousetrap.bind("u", function(){
 	playSound("boogaboo")
 })
 function playSound (id) {
-	$('audio').each(function(){
-		this.pause()
-		this.currentTime = 0;
-	})
     sound = $("#" + id)[0]
     if (sound.ended){sound.currentTime = 0};
     if (sound.currentTime > 0){
