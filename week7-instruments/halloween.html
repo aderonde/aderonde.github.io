@@ -7,6 +7,11 @@
 <audio id="bestcould" src='halloween/bestcould.mp3' preload></audio>
 <audio id="boo" src='halloween/boo.mp3' preload></audio>
 <audio id="boogaboo" src='halloween/boogaboo.mp3' preload></audio>
+<audio id="coffee" src='halloween/coffee.mp3' preload></audio>
+<audio id="darknight" src='halloween/darknight.mp3' preload></audio>
+<audio id="dududu" src='halloween/dududu.mp3' preload></audio>
+<audio id="dundundun" src='halloween/dundundun.mp3' preload></audio>
+<audio id="dundundundun" src='halloween/dundundundun.mp3' preload></audio>
 <script>
 Mousetrap.bind("q", function(){
 	playSound("bang1")
@@ -27,7 +32,19 @@ Mousetrap.bind("y", function(){
 	playSound("boo")
 })
 Mousetrap.bind("u", function(){
-	playSound("boogaboo")
+	playSound("coffee")
+})
+Mousetrap.bind("i", function(){
+	playSound("darknight")
+})
+Mousetrap.bind("o", function(){
+	playSound("dududu")
+})
+Mousetrap.bind("p", function(){
+	playSound("dundundun")
+})
+Mousetrap.bind("a", function(){
+	playSound("dundundundun")
 })
 function playSound (id) {
     sound = $("#" + id)[0]
