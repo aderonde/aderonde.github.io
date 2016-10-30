@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"set",
+				"setVolume"
+			],
+			[
+				"lo",
+				"loadSound"
+			],
+			[
 				"s",
 				"section	Tag"
 			],
@@ -112,6 +120,12 @@
 	},
 	"file_history":
 	[
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/bottlemessage.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/messagebottle.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/yhcSim.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/lib/drive-download-20161023T220252Z/p5.min.js",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/soundproject",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/lib/drive-download-20161023T220252Z/p5.sound.js",
 		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/charMarkov.html",
 		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/taleteller.html",
 		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/deserttorchsongs.html",

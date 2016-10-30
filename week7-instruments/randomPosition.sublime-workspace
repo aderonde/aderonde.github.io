@@ -1,0 +1,288 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"set",
+				"setVolume"
+			],
+			[
+				"lo",
+				"loadSound"
+			],
+			[
+				"s",
+				"section	Tag"
+			],
+			[
+				"marko",
+				"markovPet"
+			],
+			[
+				"trump",
+				"trumpGen"
+			],
+			[
+				"holt",
+				"holtGen"
+			],
+			[
+				"clin",
+				"clintonGen"
+			],
+			[
+				"trum",
+				"trumpGen"
+			],
+			[
+				"lov",
+				"loveVerb"
+			],
+			[
+				"item",
+				"itemPoolTwo"
+			],
+			[
+				"pla",
+				"placeDescriptor"
+			],
+			[
+				"bodt",
+				"bodyPartSingular"
+			],
+			[
+				"body",
+				"bodyPartPlural"
+			],
+			[
+				"bo",
+				"bodyPartPlural"
+			],
+			[
+				"desert",
+				"desertObject"
+			],
+			[
+				"r",
+				"reader"
+			],
+			[
+				"ani",
+				"animaldescriptor"
+			],
+			[
+				"place",
+				"placedescriptor"
+			],
+			[
+				"plan",
+				"plantdescriptor"
+			],
+			[
+				"fl",
+				"flowertype"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/bottlemessage.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/messagebottle.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/yhcSim.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/lib/drive-download-20161023T220252Z/p5.min.js",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week6-sound/soundproject",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/lib/drive-download-20161023T220252Z/p5.sound.js",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/charMarkov.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/taleteller.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/deserttorchsongs.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/storyexperiment.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/traceryMarkov.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/htmltest.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/tracery2.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/ohnoaghost.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/aubspoetry.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/grettirsaga.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/wordMarkov2.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/debategenerator.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/mabinogion.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/egilsaga.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/laxdalesaga",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/celtictales.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/hindutales.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/purplesage.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/debategenerator.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/holt.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/clinton.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/trump.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/week3-markov/debate.txt",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/discoursegenerator.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/tracery1.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/skittles.html",
+		"/Users/aubreyderonde/Documents/aderonde.github.io/aderonde.github.io/Week2-Tracery/prideprejudice.html",
+		"/Users/aubreyderonde/Downloads/Digital Language Art II/Ledecode.htm",
+		"/Users/aubreyderonde/Downloads/Digital Language Art II/Upstartcode.htm"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Punch",
+			",",
+			"\"",
+			"[*",
+			"Holt:.",
+			"Clinton:.",
+			"Trump:.",
+			"Trump:.*",
+			"Trump:.*\\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "randomPosition.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
