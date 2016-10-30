@@ -23,6 +23,11 @@
 <audio id="rattle" src='halloween/rattle.mp3' preload></audio>
 <audio id="revenge" src='halloween/revenge.mp3' preload></audio>
 <audio id="rustle" src='halloween/rustle.mp3' preload></audio>
+<audio id="vampire" src='halloween/vampire.mp3' preload></audio>
+<audio id="scream3" src='halloween/scream3.mp3' preload></audio>
+<audio id="witchlaugh" src='halloween/witchlaugh.mp3' preload></audio>
+<audio id="zombies" src='halloween/zombies.mp3' preload></audio>
+<audio id="spookylow" src='halloween/spookylow.mp3' preload></audio>
 <script>
 Mousetrap.bind("q", function(){
 	playSound("bang1")
@@ -91,8 +96,18 @@ Mousetrap.bind("c", function(){
 	playSound("revenge")
 })
 Mousetrap.bind("v", function(){
-	playSound("rustle")
+	playSound("vampire")
 })
+Mousetrap.bind("b", function(){
+	playSound("zombies")
+})
+Mousetrap.bind("n", function(){
+	playSound("spookylow")
+})
+Mousetrap.bind("m", function(){
+	playSound("scream3")
+})
+
 
 function playSound (id) {
     sound = $("#" + id)[0]
