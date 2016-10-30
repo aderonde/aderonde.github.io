@@ -1,0 +1,45 @@
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<script src="../lib/mousetrap.min.js"></script>
+<audio id="absolutelypure" src='rainbowsponge/absolutelypure.mp3' preload></audio>
+<audio id="ah" src='rainbowsponge/ah.mp3' preload></audio>
+<audio id="allofthosewiggles" src='rainbowsponge/allofthosewiggles.mp3' preload></audio>
+<audio id="andthenlol" src='rainbowsponge/just.mp3' preload></audio>
+<audio id="anything" src='rainbowsponge/anything.mp3' preload></audio>
+<audio id="armyartsandcrafts" src='rainbowsponge/armyartsandcrafts.mp3' preload></audio>
+<audio id="avirginedge" src='rainbowsponge/avirginedge.mp3' preload></audio>
+<script>
+Mousetrap.bind("q", function(){
+	playSound("absolutelypure")
+})
+Mousetrap.bind("w", function(){
+	playSound("ah")
+})
+Mousetrap.bind("e", function(){
+	playSound("allofthosewiggles")
+})
+Mousetrap.bind("r", function(){
+	playSound("andthenlol")
+})
+Mousetrap.bind("t", function(){
+	playSound("anything")
+})
+Mousetrap.bind("y", function(){
+	playSound("armyartsandcrafts")
+})
+Mousetrap.bind("u", function(){
+	playSound("avirginedge")
+})
+function playSound (id) {
+	$('audio').each(function(){
+		this.pause()
+		this.currentTime = 0;
+	})
+    sound = $("#" + id)[0]
+    if (sound.ended){sound.currentTime = 0};
+    if (sound.currentTime > 0){
+        sound.currentTime = 0
+    } else {
+        sound.play()
+    }
+}
+</script>

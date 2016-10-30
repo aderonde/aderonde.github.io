@@ -1,0 +1,45 @@
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<script src="../lib/mousetrap.min.js"></script>
+<audio id="bang1" src='halloween/bang1.mp3' preload></audio>
+<audio id="bang2" src='halloween/bang2.mp3' preload></audio>
+<audio id="bang3" src='halloween/bang3.mp3' preload></audio>
+<audio id="bang4" src='halloween/bang4.mp3' preload></audio>
+<audio id="bestcould" src='halloween/bestcould.mp3' preload></audio>
+<audio id="boo" src='halloween/boo.mp3' preload></audio>
+<audio id="boogaboo" src='halloween/boogaboo.mp3' preload></audio>
+<script>
+Mousetrap.bind("q", function(){
+	playSound("bang1")
+})
+Mousetrap.bind("w", function(){
+	playSound("bang2")
+})
+Mousetrap.bind("e", function(){
+	playSound("bang3")
+})
+Mousetrap.bind("r", function(){
+	playSound("bang4")
+})
+Mousetrap.bind("t", function(){
+	playSound("bestcould")
+})
+Mousetrap.bind("y", function(){
+	playSound("boo")
+})
+Mousetrap.bind("u", function(){
+	playSound("boogaboo")
+})
+function playSound (id) {
+	$('audio').each(function(){
+		this.pause()
+		this.currentTime = 0;
+	})
+    sound = $("#" + id)[0]
+    if (sound.ended){sound.currentTime = 0};
+    if (sound.currentTime > 0){
+        sound.currentTime = 0
+    } else {
+        sound.play()
+    }
+}
+</script>
