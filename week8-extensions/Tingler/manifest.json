@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+    "name": "WEB TINGLER.",
+    "description": "Replaces words to be more Tingler-friendly",
+    "version": "0.1.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "libraryreplace.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
