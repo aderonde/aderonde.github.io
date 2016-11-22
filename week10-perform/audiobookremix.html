@@ -1,0 +1,158 @@
+<script src="../lib/jquery-1.11.1.min.js"></script>
+<script src="../lib/mousetrap.min.js"></script>
+<audio id="one" src='week10-perform/one.mp3' preload></audio>
+<audio id="bang2" src='halloween/bang2.mp3' preload></audio>
+<audio id="bang3" src='halloween/bang3.mp3' preload></audio>
+<audio id="bang4" src='halloween/bang4.mp3' preload></audio>
+<audio id="bestcould" src='halloween/bestcould.mp3' preload></audio>
+<audio id="boo" src='halloween/boo.mp3' preload></audio>
+<audio id="boogaboo" src='halloween/boogaboo.mp3' preload></audio>
+<audio id="coffee" src='halloween/coffee.mp3' preload></audio>
+<audio id="darknight" src='halloween/darknight.mp3' preload></audio>
+<audio id="dududu" src='halloween/dududu.mp3' preload></audio>
+<audio id="dundundun" src='halloween/dundundun.mp3' preload></audio>
+<audio id="dundundundun" src='halloween/dundundundun.mp3' preload></audio>
+<audio id="heartbeat" src='halloween/heartbeat.mp3' preload></audio>
+<audio id="howl2" src='halloween/howl2.mp3' preload></audio>
+<audio id="jobmarket" src='halloween/jobmarket.mp3' preload></audio>
+<audio id="laugh" src='halloween/laugh.mp3' preload></audio>
+<audio id="midterm" src='halloween/midterm.mp3' preload></audio>
+<audio id="monstermash" src='halloween/monstermash.mp3' preload></audio>
+<audio id="organno" src='halloween/organno.mp3' preload></audio>
+<audio id="pattering" src='halloween/pattering.mp3' preload></audio>
+<audio id="rattle" src='halloween/rattle.mp3' preload></audio>
+<audio id="revenge" src='halloween/revenge.mp3' preload></audio>
+<audio id="rustle" src='halloween/rustle.mp3' preload></audio>
+<audio id="vampire" src='halloween/vampire.mp3' preload></audio>
+<audio id="scream3" src='halloween/scream3.mp3' preload></audio>
+<audio id="witchlaugh" src='halloween/witchlaugh.mp3' preload></audio>
+<audio id="zombies" src='halloween/zombies.mp3' preload></audio>
+<audio id="spookylow" src='halloween/spookylow.mp3' preload></audio>
+<link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Creepster" rel="stylesheet">
+<script>
+Mousetrap.bind("q", function(){
+	playSound("bang1")
+})
+Mousetrap.bind("w", function(){
+	playSound("bang2")
+})
+Mousetrap.bind("e", function(){
+	playSound("bang3")
+})
+Mousetrap.bind("r", function(){
+	playSound("bang4")
+})
+Mousetrap.bind("t", function(){
+	playSound("bestcould")
+})
+Mousetrap.bind("y", function(){
+	playSound("boo")
+})
+Mousetrap.bind("u", function(){
+	playSound("coffee")
+})
+Mousetrap.bind("i", function(){
+	playSound("darknight")
+})
+Mousetrap.bind("o", function(){
+	playSound("dududu")
+})
+Mousetrap.bind("p", function(){
+	playSound("dundundun")
+})
+Mousetrap.bind("a", function(){
+	playSound("dundundundun")
+})
+Mousetrap.bind("s", function(){
+	playSound("heartbeat")
+})
+Mousetrap.bind("d", function(){
+	playSound("howl2")
+})
+Mousetrap.bind("f", function(){
+	playSound("jobmarket")
+})
+Mousetrap.bind("g", function(){
+	playSound("laugh")
+})
+Mousetrap.bind("h", function(){
+	playSound("witchlaugh")
+})
+Mousetrap.bind("j", function(){
+	playSound("midterm")
+})
+Mousetrap.bind("k", function(){
+	playSound("monstermash")
+})
+Mousetrap.bind("l", function(){
+	playSound("organno")
+})
+Mousetrap.bind("z", function(){
+	playSound("pattering")
+})
+Mousetrap.bind("x", function(){
+	playSound("rattle")
+})
+Mousetrap.bind("c", function(){
+	playSound("revenge")
+})
+Mousetrap.bind("v", function(){
+	playSound("vampire")
+})
+Mousetrap.bind("b", function(){
+	playSound("zombies")
+})
+Mousetrap.bind("n", function(){
+	playSound("spookylow")
+})
+Mousetrap.bind("m", function(){
+	playSound("scream3")
+})
+
+
+function playSound (id) {
+    sound = $("#" + id)[0]
+    if (sound.ended){sound.currentTime = 0};
+    if (sound.currentTime > 0){
+        sound.currentTime = 0
+    } else {
+        sound.play()
+    }
+}
+</script>
+
+<style>
+#title {
+	margin: 30 auto 0 auto;
+	padding-top: 6px;
+	padding-bottom: 15px;
+	width: 600px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Creepster', cursive;
+	color: #ff0000;
+	font-size: 600%
+}
+#text {
+	margin: 50 auto 0 auto;
+	padding-top: 6px;
+	padding-bottom: 15px;
+	width: 600px;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Creepster', cursive;
+	color: #ff0000;
+	font-size: 400%
+}
+body{
+	text-align: center;
+}
+</style>
+
+<body background="halloween/hauntedhouse.jpg">
+	<h1 id = "title">Haunted Soundboard</h3>
+	<br>
+	<h2 id = "text"> Press any letter key to get SPOOKY </h2>
+	
+</body>
