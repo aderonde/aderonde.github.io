@@ -1,17 +1,3 @@
-<script src="../lib/drive-download-20161023T220252Z/p5.min.js"></script>
-<script src="../lib/drive-download-20161023T220252Z/p5.sound.js"></script>
-<script src="../lib/drive-download-20161023T220252Z/jquery-1.11.1.min.js"></script>
-<script>
-function preload(){
-  	sound = loadSound('ChrisZabriskieHopefulFuture.mp3')
-}
-
-function setup(){
-	// sound.play()
-	sound.loop()
-}
-</script>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -22,7 +8,6 @@ function setup(){
 </head>
 
 <body>
-
 
 <tw-story></tw-story>
 
@@ -35,10 +20,7 @@ tw-passage
 {
   color: #51FF85;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="720,378">(set: $lantern to &quot;no&quot;)
-
-
-&lt;p align=&quot;center&quot;&gt;[[rock]]&lt;/p&gt;
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="720,378">&lt;p align=&quot;center&quot;&gt;[[rock]]&lt;/p&gt;
 
 &lt;p align=&quot;right&quot;&gt;[[walls]] around [[you]]:&lt;/p&gt;
 
@@ -48,7 +30,7 @@ a sense of [[darkness]]
 
 &lt;p align=&quot;center&quot;&gt;[[echoing]]&lt;/p&gt;
 
-</tw-passagedata>
+(set: $lantern to &quot;no&quot;)</tw-passagedata>
 <tw-passagedata pid="2" name="rock" tags="" position="720,528">limestone, maybe.
 
 sandstone, [[sometimes]].
@@ -86,9 +68,8 @@ the earth rose with it</tw-passagedata>
 you had to lie [[flat]] down against the boat
 watch the rocks reach for your nose
 
-so [[dark-&gt;darkness]] that your mind can&#39;t
-actually
-figure out what its [[seeing]]</tw-passagedata>
+so [[dark-&gt;darkness]] that your mind
+[[shuts down-&gt;seeing]]</tw-passagedata>
 <tw-passagedata pid="9" name="dry" tags="" position="1087,637">not: damp, cold
 cracking, desert.
 
@@ -101,16 +82,13 @@ except for the soft, slow&lt;/p&gt;
 &lt;p align=&quot;center&quot;&gt;[[whistling]]&lt;/p&gt;</tw-passagedata>
 <tw-passagedata pid="10" name="d" tags="" position="528,367">
 
-
 &lt;p style=&quot;margin: 400px&quot;&gt;[[drip-&gt;echoing]]&lt;/p&gt;
 
 &lt;audio src=&quot;https://aderonde.github.io/cavetwine/drip.mp3&quot; autoplay&gt;</tw-passagedata>
 <tw-passagedata pid="11" name="r" tags="" position="403,468">&lt;p style=&quot;margin: 200px&quot;&gt;[[drip-&gt;echoing]]&lt;/p&gt;
 
 &lt;audio src=&quot;https://aderonde.github.io/cavetwine/drip.mp3&quot; autoplay&gt;</tw-passagedata>
-<tw-passagedata pid="12" name="i" tags="" position="424,613">
-
-&lt;p style=&quot;margin: 550px&quot;&gt;[[drip-&gt;echoing]]&lt;/p&gt;
+<tw-passagedata pid="12" name="i" tags="" position="424,613">&lt;p style=&quot;margin: 500px&quot;&gt;[[drip-&gt;echoing]]&lt;/p&gt;
 
 &lt;audio src=&quot;https://aderonde.github.io/cavetwine/drip.mp3&quot; autoplay&gt;</tw-passagedata>
 <tw-passagedata pid="13" name="p" tags="" position="478,738">
@@ -127,11 +105,15 @@ except for the soft, slow&lt;/p&gt;
 jagged where you could reach.
 glistening with water
 but it&#39;s always [[dry]] here</tw-passagedata>
-<tw-passagedata pid="16" name="airlocked" tags="" position="763,887">&lt;p align=&quot;center&quot;&gt;&quot;a [[living]] cave&quot;&lt;/p&gt;</tw-passagedata>
+<tw-passagedata pid="16" name="airlocked" tags="" position="763,887">&lt;p align=&quot;center&quot;&gt;&quot;a [[living]] cave&quot;&lt;/p&gt;
+
+&lt;audio src=&quot;https://aderonde.github.io/cavetwine/breath.mp3&quot; autoplay&gt;</tw-passagedata>
 <tw-passagedata pid="17" name="living" tags="" position="763,1012">
 
 &lt;p align=&quot;center&quot;&gt;it [[breathes]]&lt;/p&gt;</tw-passagedata>
-<tw-passagedata pid="18" name="breathes" tags="" position="759,1143">&lt;p align=&quot;center&quot;&gt;rush of [[moist-&gt;dry]] air&lt;/p&gt;</tw-passagedata>
+<tw-passagedata pid="18" name="breathes" tags="" position="759,1143">&lt;p align=&quot;center&quot;&gt;rush of [[moist-&gt;dry]] air&lt;/p&gt;
+
+&lt;audio src=&quot;https://aderonde.github.io/cavetwine/wind.mp3&quot; autoplay&gt;</tw-passagedata>
 <tw-passagedata pid="19" name="river" tags="" position="950.0001,950">&lt;p align=&quot;center&quot;&gt;//numbing//&lt;/p&gt;
 
 when they tried exploring the cave, all they found was frostbite
@@ -143,14 +125,27 @@ and silt</tw-passagedata>
 
 against the limestone
 &lt;p align=&quot;center&quot;&gt;and the boat.&lt;/p&gt;</tw-passagedata>
-<tw-passagedata pid="21" name="seeing" tags="" position="1162,782">when there&#39;s no light
+<tw-passagedata pid="21" name="seeing" tags="" position="1162,782">{(if: $lantern is &quot;no&quot;)[
+when there&#39;s no light
 //no// light
 your eyes make up images
 flashes
 
 
-we often think they&#39;re [[ghosts-&gt;whistling]] </tw-passagedata>
-<tw-passagedata pid="22" name="dream:" tags="" position="1111,500">it&#39;s never a dream until after, and even then
+
+we often think they&#39;re [[ghosts-&gt;whistling]]
+
+](else-if: $lantern is &quot;yes&quot;)[
+this time: the lantern
+warm in your hand:
+shadows where once only darkness.
+
+&lt;p align=&quot;center&quot;&gt;a priori: you did not see the darkness, but you were
+in it. you did not see the ghosts, but
+they scraped their knuckles
+[[against you.-&gt;times]]&lt;/p&gt;
+]</tw-passagedata>
+<tw-passagedata pid="22" name="dream:" tags="" position="1117,500">it&#39;s never a dream until after, and even then
 
 it&#39;s more a place you&#39;ve [[been]]</tw-passagedata>
 <tw-passagedata pid="23" name="whistling" tags="" position="1223,638">Double-click this passage to edit it.</tw-passagedata>
@@ -160,7 +155,7 @@ cast iron
 &lt;p style=&quot;margin-left: 600px&quot;&gt;feather light&lt;/p&gt;
 
 it [[glows-&gt;dream:]]</tw-passagedata>
-<tw-passagedata pid="25" name="been" tags="" position="1161,359">memory&#39;s the same, either way:
+<tw-passagedata pid="25" name="been" tags="" position="1165,346">memory&#39;s the same, either way:
 the walls, the lake, the waterfall.
 sandy, sloping path, cold river
 scraped knuckles.
@@ -200,9 +195,17 @@ Which will you choose?
 &lt;p align=&quot;center&quot;&gt;scraped knuckles an hour after&lt;/p&gt;
 
 torn skin. a time remembered in the [[dark-&gt;darkness]]</tw-passagedata>
-<tw-passagedata pid="29" name="Left" tags="" position="1441,467">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="30" name="Right" tags="" position="1450,334">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="31" name="Ahead" tags="" position="1281,200">secret poem/&quot;true&quot; end screen</tw-passagedata>
+<tw-passagedata pid="29" name="Left" tags="" position="1452,469">monster fight
+
+A monster appears! (set: $monster_hp to 3) 
+[[fight]] 
+[[flee]]</tw-passagedata>
+<tw-passagedata pid="30" name="Right" tags="" position="1422,316">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="31" name="Ahead" tags="" position="1297,230">secret poem/&quot;true&quot; end screen</tw-passagedata>
+<tw-passagedata pid="32" name="fight" tags="" position="1443,610">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="33" name="flee" tags="" position="1598,532">NICE TRY, COWARD
+
+YOU&#39;RE IN A CAVE AND IN A DREAM YOU CAN&#39;T DIE YOU MEATHEAD </tw-passagedata>
 </tw-storydata>
 
 
