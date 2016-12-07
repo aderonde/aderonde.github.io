@@ -14,5 +14,16 @@
   },
   "permissions": [
     "activeTab"
+  ],
+
+"content_scripts": [
+    {
+      "matches": [
+        "*://*.google.com/maps*"
+      ],
+      "js": [
+        "lib/jquery-1.11.1.min.js","lib/markov.js"
+      ]
+    }
   ]
 }

@@ -1,0 +1,29 @@
+{
+  "name": "Markov Rewriter",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Boilerplate extension for digital language arts II",
+  "browser_action": {
+    "default_icon": "typewriter.png"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "activeTab"
+  ],
+
+"content_scripts": [
+    {
+      "matches": [
+        "*://*.google.com/maps/*"
+      ],
+      "js": [
+        "lib/jquery-1.11.1.min.js","lib/markov.js"
+      ]
+    }
+  ]
+}
