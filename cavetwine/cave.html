@@ -15,10 +15,7 @@
 {
   background-color: #260030;
 }
-canvas{
-	height: 0px;
-	width: 0px;
-}
+ 
 tw-passage
 {
 	height: 300px;
@@ -27,7 +24,6 @@ tw-passage
 </style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="start" tags="" position="720,378">&lt;p align=&quot;center&quot;&gt;[[rock]]&lt;/p&gt;
 
 &lt;p align=&quot;right&quot;&gt;[[walls]] around [[you]]:&lt;/p&gt;
-
 
 
 a sense of [[darkness]]
@@ -49,7 +45,7 @@ amorphous
 both of us, together, for now
 don&#39;t worry
 i&#39;m showing you [[something-&gt;start]]</tw-passagedata>
-<tw-passagedata pid="5" name="darkness" tags="" position="1000,500">in the [[dream:]]
+<tw-passagedata pid="5" name="darkness" tags="" position="970,547">in the [[dream:]]
 
 not a reality, but a suggestion
 not a blindfold, but an embrace
@@ -65,8 +61,9 @@ maybe you have a [[lantern]]
 &lt;audio src=&quot;https://aderonde.github.io/cavetwine/drip.mp3&quot; autoplay&gt;
 </tw-passagedata>
 <tw-passagedata pid="7" name="once" tags="" position="785,762">[[airlocked]], like a great spaceship
+
 sighing underground
-the earth rose with it</tw-passagedata>
+&lt;p align=&quot;center&quot;&gt;the earth rose with it&lt;/p&gt;</tw-passagedata>
 <tw-passagedata pid="8" name="twice" tags="" position="1000.0001,800">a [[river]] ran through it
 
 you had to lie [[flat]] down against the boat
@@ -100,7 +97,6 @@ except for the soft, slow&lt;/p&gt;
 
 &lt;audio src=&quot;https://aderonde.github.io/cavetwine/drip.mp3&quot; autoplay&gt;</tw-passagedata>
 <tw-passagedata pid="14" name="s" tags="" position="620,703">
-
 &lt;p style=&quot;margin-left: 300&quot;&gt;[[drip-&gt;start]]&lt;/p&gt;
 
 &lt;audio src=&quot;https://aderonde.github.io/cavetwine/drip.mp3&quot; autoplay&gt;</tw-passagedata>
@@ -131,9 +127,9 @@ against the limestone
 &lt;p align=&quot;center&quot;&gt;and the boat.&lt;/p&gt;</tw-passagedata>
 <tw-passagedata pid="21" name="seeing" tags="" position="1162,782">{(if: $lantern is &quot;no&quot;)[
 when there&#39;s no light
-//no// light
-your eyes make up images
-flashes
+&lt;br&gt;//no// light
+&lt;br&gt;your eyes make up images
+&lt;br&gt;flashes
 
 
 
@@ -148,18 +144,19 @@ shadows where once only darkness.
 in it. you did not see the ghosts, but
 they scraped their knuckles
 [[against you.-&gt;times]]&lt;/p&gt;
-]</tw-passagedata>
-<tw-passagedata pid="22" name="dream:" tags="" position="1117,500">it&#39;s never a dream until after, and even then
+]
+}</tw-passagedata>
+<tw-passagedata pid="22" name="dream:" tags="" position="1101.0001,492">it&#39;s never a dream until after, and even then
 
 it&#39;s more a place you&#39;ve [[been]]</tw-passagedata>
 <tw-passagedata pid="23" name="whistling" tags="" position="1223,638">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="24" name="lantern" tags="" position="1050,350">(set: $lantern to &quot;yes&quot;)
+<tw-passagedata pid="24" name="lantern" tags="" position="1038,341">(set: $lantern to &quot;yes&quot;)
 
 cast iron
 &lt;p style=&quot;margin-left: 600px&quot;&gt;feather light&lt;/p&gt;
 
 it [[glows-&gt;dream:]]</tw-passagedata>
-<tw-passagedata pid="25" name="been" tags="" position="1165,346">memory&#39;s the same, either way:
+<tw-passagedata pid="25" name="been" tags="" position="1165,333">memory&#39;s the same, either way:
 the walls, the lake, the waterfall.
 sandy, sloping path, cold river
 scraped knuckles.
@@ -167,31 +164,21 @@ scraped knuckles.
 can you say
 which sn&#39;t real,
 if you [[remember]] all of them?</tw-passagedata>
-<tw-passagedata pid="26" name="remember" tags="" position="1242,501">you&#39;ve been here so many [[times]]</tw-passagedata>
-<tw-passagedata pid="27" name="times" tags="" position="1290,374">{(if: $lantern is &quot;no&quot;)[
+<tw-passagedata pid="26" name="remember" tags="" position="1226,471">you&#39;ve been here so many [[times]]</tw-passagedata>
+<tw-passagedata pid="27" name="times" tags="" position="1389,413">{(if: $lantern is &quot;no&quot;)[
 
-An airy cavern scooped out of earth.
+A dark space before you.
+&lt;br&gt;[[Endless.-&gt;start]]
 
-Three passages worm away from the hub.
-
-Which will you choose?
-
-[[Turn around-&gt;start]]
-[[Left]]
-[[Right]]
 
 ](else-if: $lantern is &quot;yes&quot;)[
 
-An airy cavern scooped out of earth.
-
-At first sight, three passages worm away from the hub. Your lantern flickers in phantom winds, and, in its changing light, you make out a fourth, smaller opening, as well.
-
-Which will you choose?
-
-[[Turn around-&gt;start]]
-[[Left]]
-[[Right]]
-[[Ahead]]
+A cavern unfurls before you, tall
+&lt;br&gt;as air. Shadows flicker on the walls before
+&lt;br&gt;fading, or: sleeping.
+&lt;br&gt;A hole the size of a pin prick at your feet.
+&lt;br&gt;
+&lt;br&gt; go [[ahead]]
 
 ]}</tw-passagedata>
 <tw-passagedata pid="28" name="caught" tags="" position="1127,1046">
@@ -199,17 +186,42 @@ Which will you choose?
 &lt;p align=&quot;center&quot;&gt;scraped knuckles an hour after&lt;/p&gt;
 
 torn skin. a time remembered in the [[dark-&gt;darkness]]</tw-passagedata>
-<tw-passagedata pid="29" name="Left" tags="" position="1452,469">monster fight
+<tw-passagedata pid="29" name="Left" tags="" position="1594,311">monster fight
 
 A monster appears! (set: $monster_hp to 3) 
 [[fight]] 
 [[flee]]</tw-passagedata>
-<tw-passagedata pid="30" name="Right" tags="" position="1422,316">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="31" name="Ahead" tags="" position="1297,230">secret poem/&quot;true&quot; end screen</tw-passagedata>
-<tw-passagedata pid="32" name="fight" tags="" position="1443,610">Double-click this passage to edit it.</tw-passagedata>
-<tw-passagedata pid="33" name="flee" tags="" position="1598,532">NICE TRY, COWARD
+<tw-passagedata pid="30" name="Right" tags="" position="1459,184">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="31" name="fight" tags="" position="1636,476">Double-click this passage to edit it.</tw-passagedata>
+<tw-passagedata pid="32" name="flee" tags="" position="1761,371">NICE TRY, COWARD
 
 YOU&#39;RE IN A CAVE AND IN A DREAM YOU CAN&#39;T DIE YOU MEATHEAD </tw-passagedata>
+<tw-passagedata pid="33" name="ahead" tags="" position="1290,251">you force yourself through, like water.
+like meat.
+and you are in the rocks you have been
+taken there.
+
+and there is a [[glow]] all about you and it is in your
+fingertips it is in your
+beating heels and numb
+arms and in the sense of here as something
+you never want to leave except by [[force]]</tw-passagedata>
+<tw-passagedata pid="34" name="glow" tags="" position="1161,157">light floats and pools to your feet a blanket
+of warmth too yellow to look at head on so you smile
+and your eyes close and
+endless, endless, endless
+are the sounds you hear and the places you have been the places
+you will go the places you will take yourself</tw-passagedata>
+<tw-passagedata pid="35" name="force" tags="" position="1313.0001,126">&lt;p align=&quot;center&quot;&gt;gentle leaves bruise
+when you clutch them&lt;/p&gt;
+
+and you //clutch// them
+
+&lt;p align=&quot;left&quot;&gt;(but how else are you supposed to [[hold]] on?)&lt;/p&gt;</tw-passagedata>
+<tw-passagedata pid="36" name="hold" tags="" position="1364.0001,1">waking is a violent affair
+as you are expelled from enemy lands:
+a wanderer with spears
+who wanted to go home.</tw-passagedata>
 </tw-storydata>
 
 
@@ -257,7 +269,6 @@ function preload(){
 function setup(){
 	// sound.play()
 	sound.loop()
-	console.log($("canvas"))
 	$("canvas").remove();
 }
 </script>
