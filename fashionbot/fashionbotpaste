@@ -1,0 +1,409 @@
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup1# with #item#!", ""],
+	"item" : ["#item1#", "item2#"],
+	"item1" : ["#length# #skirtOrDress#", "#fabric# #skirtOrDress#", "#adjective# #skirtOrDress#"],
+	"length" : ["mini", "midi" , "maxi"],
+	"skirtOrDress" : ["skirt",  "dress"],
+	"something": ["eh"]
+}
+
+
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup1# with #item#!", ""],
+	"item" : ["#item1#", "item2#"],
+	"item1" : ["#openBottom#", "#pants#", "#shirt#"],
+	"openBottom" :  [#length# #skirtOrDress#", "#fabric# #skirtOrDress#", "#adjective# #skirtOrDress#],
+	"length" : ["mini", "midi" , "maxi"],
+	"skirtOrDress" : ["skirt",  "dress"],
+	"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello"],
+	"something": ["eh"]
+}
+
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup1# with #item#!", ""],
+	"item" : ["#item1#", "item2#"],
+	"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+	"length" : ["mini", "midi" , "maxi"],
+	"clothe" : ["skirt",  "dress", "shirt", "blouse"],
+	"clothe2" : ["pants", "shorts"],
+	"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello"],
+	"something": ["eh"]
+}
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup# with #item#!", ""],
+	"item" : ["#item1#", "item2#"],
+	"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+	"length" : ["mini", "midi" , "maxi", "extra long", "endless"],
+	"clothe" : ["skirt",  "dress", "shirt", "blouse"],
+	"clothe2" : ["pants", "shorts"],
+	"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello"],
+	"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["eyeliner", "foundation", "blush", "lip",  "eyeshadow"],
+	"something": ["eh"]
+}
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup# with #item#!"],
+	"item" : ["#item1#", "item2#"],
+	"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+	"length" : ["mini", "midi" , "maxi", "extra long", "endless"],
+	"clothe" : ["skirt",  "dress", "shirt", "blouse"],
+	"clothe2" : ["pants", "shorts"],
+	"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello"],
+	"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"something": ["eh"]
+}
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup# with #item#!"],
+		"item" : ["#item1#", "item2#"],
+			"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["skirt",  "dress", "shirt", "blouse", "skin"],
+				"clothe2" : ["pants", "shorts"],
+	"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello"],
+	"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"something": ["eh"]
+}
+
+
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with an #item2.a#", "spice up #season# by pairing #makeup# with #item#!"],
+		"item" : ["#item1#", "item2#"],
+			"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "skin"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+	"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"something": ["eh"]
+}
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2#", "spice up #season# by pairing #makeup# with #item.a#!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes.a#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"something": ["eh"]
+}
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2#", "spice up #season# by pairing #makeup# with #item#!", "this #season#: #item# is back in!", "surprise your #honey# by wearing #item# in the bedroom!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length# #clothe#", "#fabric# #clothe#", "#adjective# #clothe#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes.#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+	"something": ["eh"]
+
+}
+
+
+
+
+{
+	"origin" : ["tip! wear #item1.a# with #item2.a#", "spice up #season# by pairing #makeup# with #item#!", "this #season#: #item# is back in!", "surprise your #honey# by wearing #item# in the bedroom!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #clothe#", "#fabric.a# #clothe#", "#adjective.a# #singClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pair of pants pants", "pair of shorts", "pair of socks", "pair of slacks", "pair of gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+	"something": ["eh"]
+
+}
+
+
+{
+	"origin" : ["tip! wear #item1.a# with #item2.a#", "spice up #season# by pairing #makeup# with #item.a#!", "this #season#: #item# is back in!", "surprise your #honey# by wearing #item# in the bedroom!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #clothe#", "#fabric.a# #clothe#", "#adjective.a# #singClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pair of pants pants", "pair of shorts", "pair of socks", "pair of slacks", "pair of gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "meat", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2.a#", "spice up #season# by pairing #makeup# with #item.a#!", "this #season#: the #item# is back in!", "surprise your #honey# by wearing #item.a# in the bedroom!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #singClothe#", "#fabric.a# #singClothe#", "#adjective.a# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothe#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pair of pants pants", "pair of shorts", "pair of socks", "pair of slacks", "pair of gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising panic", "looming sense of dread", "removeable mustache", "can of soup"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2.a#", "spice up #season# by pairing #makeup# with #item.a#!", "this #season#: the #item# is back in!", "surprise your #honey# by wearing #item.a# in the bedroom!", "try #verbing# your #item1# into an #item1#!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #singClothes#", "#fabric.a# #singClothe#", "#adjective.a# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothe#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pair of pants pants", "pair of shorts", "pair of socks", "pair of slacks", "pair of gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising panic", "looming sense of dread", "removeable mustache", "can of soup", "adorned fez", "live goose head", "Charles Darwin Christmas ornament", "wind up chattering teeth", "cat bonnet"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+"verbing" : ["upcycling", "recycling", "reimagining", "contorting", "reinventing", "converting", "transforming", "transfiguring"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2.a#", "spice up #season# by pairing #makeup# with #item#!", "this #season#: the #itemSingClothes# is back in!", "this #season#: #itemPlurClothes# are back in!", "#surprise# your #honey# by wearing #item.a# in the bedroom!", "try #verbing# your #item1# into #item1#!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #singClothes#", "#fabric.a# #singClothes#", "#adjective.a# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+			"itemSingClothes" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#"],
+			"itemPlurClothes" : ["#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie", "onesie", "footie pajamas", "slip"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising sense of panic", "looming sense of dread", "removeable mustache", "can of soup", "adorned fez", "live goose head", "Charles Darwin Christmas ornament", "wind up chattering teeth", "cat bonnet"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "the Holidays", "Valentine's Day", "Monday"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+"verbing" : ["upcycling", "recycling", "reimagining", "contorting", "reinventing", "converting", "transforming", "transfiguring"],
+"surprise" : ["surprise", "shock", "thrill", "titillate", "enrapture"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2.a#", "spice up #season# by pairing #makeup# with #item#!", "this #season#: the #itemSingClothes# is back in!", "this #season#: #itemPlurClothes# are back in!", "#surprise# your #honey# by wearing #item# in the bedroom!", "try #verbing# your #item1# into #item1#!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #singClothes#", "#fabric.a# #singClothes#", "#adjective.a# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+			"itemSingClothes" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#"],
+			"itemPlurClothes" : ["#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional", "A-line"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie", "onesie", "footie pajamas", "slip"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable", "backless", "baggy", "bodycon"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising sense of panic", "looming sense of dread", "removeable mustache", "can of soup", "adorned fez", "live goose head", "Charles Darwin Christmas ornament", "wind up chattering teeth", "cat bonnet"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "Christmas", "Valentine's Day", "Monday", "equinox", "solstice", "Halloween"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+"verbing" : ["upcycling", "recycling", "reimagining", "contorting", "reinventing", "converting", "transforming", "transfiguring"],
+"surprise" : ["surprise", "shock", "thrill", "titillate", "enrapture"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+{
+	"origin" : ["tip! wear #item1# with #item2.a#", "spice up #season# by pairing #makeup# with #itemSingClothes.a#!", "spice up #season# by pairing #makeup# with #itemPlurClothes#!", "spice up #season# by pairing #makeup# with #item2.a#!","this #season#: the #itemSingClothes# is back in!", "this #season#: #itemPlurClothes# are back in!", "#surprise# your #honey# by wearing #itemSingClothes# in the bedroom!", "#surprise# your #honey# by wearing #itemPlurClothes# in the bedroom!", "#surprise# your #honey# by wearing #item2.a# in the bedroom!", "try #verbing# your #item1# into #item1#!"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length.a# #singClothes#", "#fabric.a# #singClothes#", "#adjective.a# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+			"itemSingClothes" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#"],
+			"itemPlurClothes" : ["#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional", "A-line", "boot-cut", "full-length", "knee-length"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants", "footie pajamas"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie", "onesie", "slip", "negligee", "bracelet", "shawl", "15th century English crown", "diadem", "hazmat suit", "vest", "overcoat", "peacoat", "raincoat"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable", "backless", "baggy", "bodycon", "button-down", "clingy", "comfy", "designer", "normcore", "flame-retardant", "hooded", "ill-fitting", "loose", "low-cut", "mothball-scented", "ghost-given", "oversized", "pleated", "prim", "waterproof", "reversible", "ruched", "smart", "thermal", "voluminous", "wraparound", "zippered", "couture"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising sense of panic", "looming sense of dread", "removeable mustache", "can of soup", "adorned fez", "live goose head", "Charles Darwin Christmas ornament", "wind up chattering teeth", "cat bonnet"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "Christmas", "Valentine's Day", "Monday", "equinox", "solstice", "Halloween"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired", "matte", "messy", "smoky", "haphazard", "tired", "overdone", "undercooked"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+"verbing" : ["upcycling", "recycling", "reimagining", "contorting", "reinventing", "converting", "transforming", "transfiguring"],
+"surprise" : ["surprise", "shock", "thrill", "titillate", "enrapture"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+
+{
+	"origin" : ["tip! wear #itemSingClothes.a# with #item2.a#", "tip! wear #itemPlurClothes# with #item2.a#", "tip! wear #itemSingClothes# with #item2.a#", "spice up #season# by pairing #makeup# with #itemSingClothes.a#!", "spice up #season# by pairing #makeup# with #itemPlurClothes#!", "spice up #season# by pairing #makeup# with #item2.a#!","this #season#: the #itemSingClothes# is back in!", "this #season#: #itemPlurClothes# are back in!", "#surprise# your #honey# by wearing #itemSingClothes.a# in the bedroom!", "#surprise# your #honey# by wearing #itemPlurClothes# in the bedroom!", "#surprise# your #honey# by wearing #item2.a# in the bedroom!", "try #verbing# your #item1# into #item1#!", "try #verbing# your #item1# into #item1#!", "try #verbing# your #item1# into #item2.a#!", "consider: #adjective# #fabric# #plurClothes#", "consider: #adjective# #fabric# #singClothes#", "consider: #adjective# #fabric# #item2#"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+			"itemSingClothes" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#"],
+			"itemPlurClothes" : ["#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional", "A-line", "boot-cut", "full-length", "knee-length"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants", "footie pajamas", "panties", "underwear"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie", "onesie", "slip", "negligee", "bracelet", "shawl", "15th century English crown", "diadem", "hazmat suit", "vest", "overcoat", "peacoat", "raincoat", "bra"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim", "fleece", "tattered canvas", "felt", "satin", "silk", "organza", "clingwrap", "spandex", "pastrami", "brown paper", "duct tape", "newspaper", "glass", "stained glass", "mink", "fur", "hairy", "edible"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable", "backless", "baggy", "bodycon", "button-down", "clingy", "comfy", "designer", "normcore", "flame-retardant", "hooded", "ill-fitting", "loose", "low-cut", "mothball-scented", "ghost-given", "oversized", "pleated", "prim", "waterproof", "reversible", "ruched", "smart", "thermal", "voluminous", "wraparound", "zippered", "couture", "moist"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising sense of panic", "looming sense of dread", "removeable mustache", "can of soup", "adorned fez", "live goose head", "Charles Darwin Christmas ornament", "set of wind up chattering teeth", "cat bonnet"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "Christmas", "Valentine's Day", "Monday", "equinox", "solstice", "Halloween", "Tuesday", "Thursday", "Wednesday", "Friday", "the weekend"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired", "matte", "messy", "smoky", "haphazard", "tired", "overdone", "undercooked"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow", "temporary tattoos"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+"verbing" : ["upcycling", "recycling", "reimagining", "contorting", "reinventing", "converting", "transforming", "transfiguring"],
+"surprise" : ["surprise", "shock", "thrill", "titillate", "enrapture"],
+	"something": ["eh"]
+
+}
+
+
+
+
+
+
+
+FINAL VERSION
+{
+	"origin" : ["tip! wear #itemSingClothes.a# with #item2.a#", "tip! wear #itemPlurClothes# with #item2.a#", "tip! wear #itemSingClothes# with #item2.a#", "spice up #season# by pairing #makeup# with #itemSingClothes.a#!", "spice up #season# by pairing #makeup# with #itemPlurClothes#!", "spice up #season# by pairing #makeup# with #item2.a#!","this #season#: the #itemSingClothes# is back in!", "this #season#: #itemPlurClothes# are back in!", "#surprise# your #honey# by wearing #itemSingClothes.a# in the bedroom!", "#surprise# your #honey# by wearing #itemPlurClothes# in the bedroom!", "#surprise# your #honey# by wearing #item2.a# in the bedroom!", "try #verbing# your #item1# into #item1#!", "try #verbing# your #item1# into #item1#!", "try #verbing# your #item1# into #item2.a#!", "consider: #adjective# #fabric# #plurClothes#", "consider: #adjective# #fabric# #singClothes#", "consider: #adjective# #fabric# #item2#"],
+		"item" : ["#item1#", "#item2#"],
+			"item1" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#", "#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+			"itemSingClothes" : ["#length# #singClothes#", "#fabric# #singClothes#", "#adjective# #singClothes#"],
+			"itemPlurClothes" : ["#length# #plurClothes#", "#fabric# #plurClothes#", "#adjective# #plurClothes#"],
+				"length" : ["mini", "midi" , "maxi", "extra long", "endless", "multidimensional", "A-line", "boot-cut", "full-length", "knee-length"],
+				"clothe" : ["#singClothes#", "#plurClothes#"],
+				"plurClothes" : ["pants", "shorts", "socks", "slacks", "gloves", "earrings", "crocs", "crawdad-huntin' capris", "pantaloons", "MC hammerpants", "assless chaps", "ass-full chaps", "ass-optional chaps", "jorts", "necropants", "footie pajamas", "panties", "underwear"],
+				"singClothes" : ["skirt",  "dress", "shirt", "blouse", "necklace", "hat", "tiara", "poncho", "bolo tie", "onesie", "slip", "negligee", "bracelet", "shawl", "15th century English crown", "diadem", "hazmat suit", "vest", "overcoat", "peacoat", "raincoat", "bra"],
+				"fabric" : ["chiffon", "velvet", "crushed velvet", "leather", "lace", "wool", "cashmere", "jersey", "handmade", "jello", "denim", "fleece", "tattered canvas", "felt", "satin", "silk", "organza", "clingwrap", "spandex", "pastrami", "brown paper", "duct tape", "newspaper", "glass", "stained glass", "mink", "fur", "hairy", "edible"],
+				"adjective" : ["effervescent", "timeless", "vintage", "retro", "classic", "bold", "trashy", "chic", "ancient", "ineffable", "backless", "baggy", "bodycon", "button-down", "clingy", "comfy", "designer", "normcore", "flame-retardant", "hooded", "ill-fitting", "loose", "low-cut", "mothball-scented", "ghost-given", "oversized", "pleated", "prim", "waterproof", "reversible", "ruched", "smart", "thermal", "voluminous", "wraparound", "zippered", "couture", "moist"],
+			"item2" : ["parasol", "mug of secret coffee", "pineapple", "sense of disappointment", "joie de vivre", "side of man meat", "pet rock", "book of Old English phrases", "purse full o' tater tots", "kevlar vest", "knitting needle", "light-up sneaker", "fleece jumpsuit", "rusty buckle", "rising sense of panic", "looming sense of dread", "removeable mustache", "can of soup", "adorned fez", "live goose head", "Charles Darwin Christmas ornament", "set of wind up chattering teeth", "cat bonnet"],
+	
+"season" : ["winter", "spring", "summer", "fall", "autumn", "Christmas", "Valentine's Day", "Monday", "equinox", "solstice", "Halloween", "Tuesday", "Thursday", "Wednesday", "Friday", "the weekend"],
+	"makeup" : ["#makeupAdj# #makeupItem#"],
+	"makeupAdj" : ["sheer", "bold", "neutral", "grunge", "natural", "chaotic", "glittery", "glossy", "prismatic", "80s synth", "dad-rock inspired", "matte", "messy", "smoky", "haphazard", "tired", "overdone", "undercooked"],
+	"makeupItem" : ["foundation", "blush", "eyeliner", "lipliner", "lipstick", "lip gloss", "lip stain", "eyeshadow", "temporary tattoos"],
+	"honey" : ["honey", "sweetiepie", "spouse", "boytoy", "lover", "sex friend", "fuckbud", "sugar momma", "ghost husband", "ghost wife", "schmoopy", "puddin pop", "cuddle bug", "muffin fluff", "chosen one"],
+"verbing" : ["upcycling", "recycling", "reimagining", "contorting", "reinventing", "converting", "transforming", "transfiguring"],
+"surprise" : ["surprise", "shock", "thrill", "titillate", "enrapture"],
+	"something": ["eh"]
+
+}
+
+
